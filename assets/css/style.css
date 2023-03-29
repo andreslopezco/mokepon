@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: url(../assets/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Press Start 2P', cursive;  
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #00000097;
+}
+
+.h1-title {
+    color: #FFC93C;
+    font-size: 50px;
+}
+
+.h2-subtitle {
+    margin-bottom: 35px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.cards-box {
+    display: flex;
+    gap: 25px;
+}
+
+.cards-box input{
+    display: none;
+}
+
+.cards-box input:checked + label {
+    border: #0081C9;
+    background-color: #FFC93C;
+    color: #0081C9;
+}
+
+.mokepon-card {
+    width: 200px;
+    height: 100px;
+    background-color: #0081C9;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0.5px solid whitesmoke;
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.mokepon-card:hover {
+    background-color: #86E5FF;
+    border: 0.5px solid #0081C9;
+    color: #0081C9;
+    transition: 500ms;
+}
+
+.mokepon-card img {
+    width: 80px;
+}
+
+.button-1 {
+    width: 200px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 35px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+.button-1:hover {
+    border: 2px solid #0081C9;
+    background-color: #FFC93C;
+    color: #0081C9;
+    transition: 500ms;
+}
+
+.button-2 {
+    width: 80px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    background-color: #0081C9;
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+.button-2:hover {
+    border: 2px solid #0081C9;
+    background-color: #FFC93C;
+    color: #0081C9;
+    transition: 500ms;
+}
+
+.button-3 {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #0081C9;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #0081C9;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+.button-3:hover {
+    border: 2px solid #0081C9;
+    background-color: #FFC93C;
+    color: #0081C9;
+    transition: 500ms;
+}
+
+.notifications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    color: #0081C9;
+    font-size: 15px;
+}
+
+.box-cards-combat {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.mokepon-card-combat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #0081C9;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;;
+    margin: 25px;
+}
+
+.mokepon-card-combat p {
+    text-align: center;
+}
+
+.attack {
+    font-size: 10px;
+}
+
+.footer {
+    margin-top: 35px;
+    color: whitesmoke;
+    font-size: 10px;
+    text-shadow: 0 0 3px #00000097, 0 0 5px #00000097;
+}

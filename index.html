@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mokepon</title>
+
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+
+        <h1 class="h1-title">Mokepon</h1>
+
+        <div id="pet-select" class="section-content">        
+            <h2 class="h2-subtitle">Elige tu mascota:</h2>
+
+            <div id="cards-container" class="cards-box">      
+                
+            </div>
+
+            <button id="pet-select-button" class="button-1">Seleccionar</button>
+        </div>
+
+        <div id="attack-select" class="section-content">
+            <h2 class="h2-subtitle">Elige tu ataque:</h2>
+            
+            <div id="attacks-buttons-container">
+            </div>
+
+            <div>
+                <div id="messages" class="notifications">
+                    <p id="result">¡Comienza el combate!</p>
+
+                    <section id="restart">
+                        <button id="restart-button" class="button-3">Reiniciar</button>
+                    </section>
+                </div>
+                                
+            </div>
+
+            <div class="box-cards-combat">
+                <div class="mokepon-card-combat">
+                    <p id="player-pet-name"></p>
+                    <p>🧡 = <span id="player-lives"></span></p>
+                    <div id="player-attack" class="attack"></div>
+                    
+                </div>
+                
+                <div class="mokepon-card-combat">
+                    <p id="enemy-pet-name"></p>
+                    <p>🧡 = <span id="enemy-lives"></span></p>
+                    <div id="enemy-attack" class="attack"></div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <p class="footer">Developed with 🧡 by Andrés López</p>
+    </div>
+    <script src="./assets/js/code.js"></script>
+</body>
+</html>
